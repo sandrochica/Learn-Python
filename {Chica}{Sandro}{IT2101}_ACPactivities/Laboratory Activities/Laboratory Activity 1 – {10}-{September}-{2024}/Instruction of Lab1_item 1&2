@@ -1,0 +1,60 @@
+"""
+ITEM 1
+Instruction: 
+Write a program that asks the user to enter the following:
+Values Data Type
+Year Integer
+Genre String
+Album String
+Title String
+Artist String
+
+Then, the entered values should be directly printed.
+
+Expected output:
+
+Enter the year: 2023
+Enter the genre: Dance Pop
+Enter the album: IsaPuso
+Enter the song title: Day and Night
+Enter the artist: Alamat
+-------------------
+SONG DETAILS
+-------------------
+Year Released: 2023
+Genre: Dance Pop
+Album: IsaPuso
+Title: "Day and Night"
+Artist: Alamat 
+
+
+***********************************************************************************
+ITEM 2
+Write a program that asks for two character inputs, separated by a space, then
+get the character with the larger value. Hint, you will use the built-in function
+max for this. 
+
+Expected output:
+Enter two space-separated characters: 1 
+----------------------------------
+The character with greater value is: a
+----------------------------------
+This part is optional to include.
+Showing ASCII Values:
+1:49
+a:97
+
+
+Optional: Show the ASCII value of the character using the ord() function.
+
+For example:
+char1 input("Enter a character: ")
+asciiVal = ord(char1)
+print("-------------------------")
+print (f"The ASCII value of 
+{char1} is {asciiVal}.")
+
+This gives an output of:
+Enter a character: J
+The ASCII value of J is 74.
+"""
